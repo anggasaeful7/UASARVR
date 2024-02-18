@@ -1,0 +1,8 @@
+Model Information:
+* title:	Fender Jazz Bass Relic
+* source:	https://sketchfab.com/3d-models/fender-jazz-bass-relic-efdb694b4914431b979d344dbd41545e
+* author:	ulucuvute (https://sketchfab.com/ulucuvute)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works

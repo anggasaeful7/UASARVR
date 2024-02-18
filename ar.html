@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script src="
+    https://cdn.jsdelivr.net/npm/aframe-extras@6.1.1/dist/aframe-extras.min.js
+    "></script>
+    <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <a-scene embedded arjs>
+        <a-marker type="pattern" url="pattern-marker.patt">
+            <a-gltf-model src="./old_fm_radio_on_stool/scene.gltf" scale="5 5 5"
+                animation__putar="property:rotation; from:0 0 0; to:0 360 0 ; startEvents:mouseenter">
+            </a-gltf-model>
+        </a-marker>
+        <a-marker type="pattern" url="pattern-pianomarker.patt">
+            <a-gltf-model src="./grand_piano/scene.gltf" scale="0.3 0.3 0.3"
+                animation__putar="property:rotation; from:0 0 0; to:0 360 0 ; startEvents:mouseenter">
+            </a-gltf-model>
+        </a-marker>
+        <a-marker type="pattern" url="pattern-guitar.patt">
+            <a-gltf-model src="./fender_jazz_bass_relic/scene.gltf" scale="5 5 5"
+                animation__putar="property:rotation; from:0 0 0; to:0 360 0 ; startEvents:mouseenter">
+            </a-gltf-model>
+        </a-marker>
+        <a-entity camera>
+            <a-cursor></a-cursor>
+        </a-entity>
+    </a-scene>
+
+</body>
+
+</html>
